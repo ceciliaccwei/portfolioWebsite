@@ -345,6 +345,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 /* Resume */
 .timeline {
   position: relative;
+  width: 90%;
 }
 
 .timeline .timelin-title {
@@ -377,7 +378,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .timeline li .line-text {
   color: #888;
-  line-height: 18px;
+  line-height: 23px;
 }
 
 .timeline li:first-child:before {
@@ -1056,7 +1057,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .skills{
-  margin-left: 60px;
+  margin-left: 10px;
 
 }
 
@@ -1111,7 +1112,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 
 .graphic-design {
-	width:40%;
+	width:48%;
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
 	background-color: #f674a4;
