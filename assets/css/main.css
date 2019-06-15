@@ -1064,6 +1064,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .skills{
   /* margin-left: -30px; */
+  /* padding-left: 2%; */
+  padding-right: 5%;
 
 }
 
