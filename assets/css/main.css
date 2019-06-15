@@ -701,8 +701,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #hero-area .contents {
-  /* padding: 110px 0px 120px; */
-  padding: 12%;
+  padding: 110px 0px 120px;
+  /* padding: 12%; */
 }
 
 #hero-area .contents h5{
@@ -722,7 +722,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #hero-area .contents .head-title {
   color: #fff;
-  font-size: 80px;
+  font-size: 75px;
   letter-spacing: 10px;
   text-transform: uppercase;
   line-height: 85px;
