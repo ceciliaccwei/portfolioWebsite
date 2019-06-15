@@ -1059,9 +1059,14 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #00b4d9;
 }
 
+.education{
+  padding-left: 5%;
+}
 .skills{
   /* margin-left: 10px; */
-  padding-right: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* width: 70vh; */
 
 }
 
@@ -1069,7 +1074,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 	list-style: none;
 	font: 5px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #222;
-	width: 550px;
+	/* width: 70vh; */
 	margin: 30px auto 0px -10px;
 	position: relative;
 	line-height: 2em;
