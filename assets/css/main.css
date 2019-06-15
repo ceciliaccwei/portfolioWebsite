@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:400,700");
-@import url('http://getbootstrap.com/dist/css/bootstrap.css');
 html {
   overflow-x: hidden;
 }
@@ -702,7 +701,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #hero-area .contents {
   /* padding: 110px 0px 120px; */
-  padding: 11%;
+  padding: 12%;
 }
 
 #hero-area .contents h5{
@@ -920,7 +919,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   text-transform: uppercase;
   color: #666;
 }
-
 .services-item .services-content h3 a:hover {
   color: #00b4d9;
 } */
@@ -1061,11 +1059,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #00b4d9;
 }
 
-
 .skills{
-  /* margin-left: -30px; */
-  /* padding-left: 2%; */
-  padding-right: 2%;
+  /* margin-left: 10px; */
+  padding-right: 1%;
 
 }
 
@@ -1073,14 +1069,14 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 	list-style: none;
 	font: 5px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #222;
-	width: 260px;
+	width: 550px;
 	margin: 30px auto 0px -10px;
 	position: relative;
 	line-height: 2em;
 	padding: 30px 0;
-  /* display: grid;
+  display: grid;
   grid-template-columns:50% 50%;
-  column-gap: 2rem; */
+  column-gap: 2rem;
   /* column-count: 2;
   column-gap: 2rem; */
 
