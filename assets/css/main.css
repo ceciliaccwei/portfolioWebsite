@@ -1123,7 +1123,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 
 .graphic-design {
-	width:48%;
+	width:40%;
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
 	background-color: #f674a4;
@@ -1179,7 +1179,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 @-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:40%;}  }
 @-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:40%;}  }
 
-@-webkit-keyframes graphic-design       { 0%  { width:0px;} 40%{ width:40%;}  }
+@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:40%;}  }
 @-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:40%;}  }
 @-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:40%;}  }
 @-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:40%;}  }
