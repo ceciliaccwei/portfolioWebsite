@@ -367,18 +367,18 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .timeline li .line-title {
   font-size: 16px;
-  line-height: 6px;
+  line-height: 5px;
 }
 
 .timeline li span {
   font-size: 12px;
-  padding: 9px 0;
+  padding: 5px 0;
   display: block;
 }
 
 .timeline li .line-text {
   color: #888;
-  line-height: 23px;
+  line-height: 27px;
 }
 
 .timeline li:first-child:before {
