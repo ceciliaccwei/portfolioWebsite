@@ -293,7 +293,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 350px;
+  /* height: 350px; */
   text-align:center;
 }
 
@@ -304,7 +304,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   line-height: 150px;
 
 }
-.counter-section:before {
+/* .counter-section:before {
   content: '';
   position: absolute;
   top: 0;
@@ -341,7 +341,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-size: 42px;
   margin-top: 15px;
   font-weight: 700;
-}
+} */
 
 /* Resume */
 .timeline {
@@ -1124,7 +1124,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 
 .graphic-design {
-	width:40%;
+	width:95%;
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
 	background-color: #f674a4;
@@ -1137,7 +1137,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .html-css {
-	width:40%;
+	width:80%;
 	-moz-animation:html-css 2s ease-out;
 	-webkit-animation:html-css 2s ease-out;
 	background-color: #f0bb4b;
@@ -1163,9 +1163,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .python {
-	width:40%;
-	-moz-animation:wordpress 2s ease-out;
-	-webkit-animation:wordpress 2s ease-out;
+	width:90%;
+	-moz-animation:python 2s ease-out;
+	-webkit-animation:python 2s ease-out;
 	background-color: #66b3cc;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
 	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
@@ -1175,12 +1175,71 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 	background-image: linear-gradient(top, #66b3cc, #5da3ba)
 }
 
-@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:40%;}  }
-@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:40;}  }
-@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:40%;}  }
-@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:40%;}  }
+.product-Management{
+  width:70%;
+  -moz-animation:product-Management 2s ease-out;
+  -webkit-animation:product-Management 2s ease-out;
+  background-color: #f674a4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+	background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+	background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+	background-image: -o-linear-gradient(top, #f674a4, #e06995);
+	background-image: linear-gradient(top, #f674a4, #e06995);
+}
 
-@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:40%;}  }
-@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:40%;}  }
+.SQL{
+  width:87%;
+  -moz-animation:SQL 2s ease-out;
+  -webkit-animation:SQL 2s ease-out;
+  background-color: #f0bb4b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+.C{
+  width:70%;
+	-moz-animation:C 2s ease-out;
+	-webkit-animation:C 2s ease-out;
+	background-color: #a1ce5b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
+	background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: linear-gradient(top, #a1ce5b, #91ba52);
+}
+
+.Java{
+  width:75%;
+	-moz-animation:Java 2s ease-out;
+	-webkit-animation:Java 2s ease-out;
+	background-color: #66b3cc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)
+}
+
+@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:95%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:40%;}  }
+@-moz-keyframes python     { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes product-Management   { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes SQL   { 0%  { width:0px;} 100%{ width:87%;}  }
+@-moz-keyframes C  { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes Java  { 0%  { width:0px;} 100%{ width:75%;}  }
+
+@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:95%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:80%;}  }
 @-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:40%;}  }
-@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:40%;}  }
+@-webkit-keyframes python      { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes product-Management   { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes SQL   { 0%  { width:0px;} 100%{ width:87%;}  }
+@-webkit-keyframes C  { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes Java   { 0%  { width:0px;} 100%{ width:75%;}  }
