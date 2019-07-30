@@ -819,25 +819,12 @@ a.back-to-top:hover, a.back-to-top:focus {
   border-radius: 4px;
 }
 
-.overlay .preview_d {
-  /* position: absolute;
-  left: 45%;
-  top: 50%; */
-  color: #fff;
-}
-
 .overlay .preview {
-  /* position: absolute;
-  left: 50%;
-  top: 50%; */
   color: #fff;
 }
 
 .overlay .link {
-  /* position: absolute;
-  left: 60%; */
   margin-left: 55px;
-  /* top: 50%; */
   color: #fff;
 }
 
