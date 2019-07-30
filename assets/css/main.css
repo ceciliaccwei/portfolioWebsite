@@ -796,6 +796,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   opacity: 0;
 }
 
+
+
 .overlay .icons i {
   height: 42px;
   width: 42px;
@@ -803,6 +805,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #00b4d9;
   margin-left: -24px;
   margin-top: -24px;
+
   top: 50%;
   position: absolute;
   z-index: 2;
@@ -816,18 +819,25 @@ a.back-to-top:hover, a.back-to-top:focus {
   border-radius: 4px;
 }
 
-.overlay .preview {
-  position: absolute;
+.overlay .preview_d {
+  /* position: absolute;
   left: 45%;
-  top: 50%;
+  top: 50%; */
+  color: #fff;
+}
+
+.overlay .preview {
+  /* position: absolute;
+  left: 50%;
+  top: 50%; */
   color: #fff;
 }
 
 .overlay .link {
-  position: absolute;
-  left: 60%;
-  margin-left: 10px;
-  top: 50%;
+  /* position: absolute;
+  left: 60%; */
+  margin-left: 55px;
+  /* top: 50%; */
   color: #fff;
 }
 
