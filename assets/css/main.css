@@ -923,6 +923,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   text-transform: uppercase;
 }
 
+.contact-form-area #map{
+  margin-top: 30px;
+}
 .footer-right-contact {
   padding: 4px;
   border: 1px solid #e1e1e1;
@@ -930,7 +933,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .footer-right-contact .single-contact {
-  margin: 10px 22px;
+  margin: 20px 22px;
   padding: 3px 55px;
   position: relative;
   color: #666;
@@ -965,8 +968,12 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   overflow: hidden;
 }
 
-#contact #contactForm {
+.contact-form-area .contactFrom {
   margin-top: 30px;
+}
+
+.contact-form-area .submit-button {
+  margin-top: 20px;
 }
 
 .text-danger {
