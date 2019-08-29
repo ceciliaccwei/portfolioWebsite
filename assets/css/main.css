@@ -293,12 +293,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 .counter-section {
   background: url(../img/background/bg-5.png);
   overflow: hidden;
-  position: fixed;
+  position: relative;
   background-size: cover;
   background-position: center;
   /* height: 350px; */
   text-align:center;
-
 }
 
 
