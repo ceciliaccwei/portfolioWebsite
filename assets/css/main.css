@@ -991,11 +991,12 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 /* Footer Area Start */
 .footer-area {
   background: #1C1C20;
+  padding-bottom: 35px;
 }
 
 .footer-area .footer-text p {
   font-size: 14px;
-  margin-top: 20px;
+  margin-top: 10px;
   color: #fff;
 }
 
