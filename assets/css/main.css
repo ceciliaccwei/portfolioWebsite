@@ -340,9 +340,10 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .timeline li span {
-  font-size: 12px;
+  font-size: 14px;
   padding: 5px 0;
   display: block;
+  font-style: italic;
 }
 
 .timeline li .line-text {
