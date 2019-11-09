@@ -1176,7 +1176,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 
-
 .graphic-design {
 	width:95%;
 	-moz-animation:graphic-design 2s ease-out;
@@ -1191,7 +1190,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .html-css {
-	width:80%;
+	width:90%;
 	-moz-animation:html-css 2s ease-out;
 	-webkit-animation:html-css 2s ease-out;
 	background-color: #f0bb4b;
@@ -1204,7 +1203,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .jquery {
-	width:40%;
+	width:60%;
 	-moz-animation:jquery 2s ease-out;
 	-webkit-animation:jquery 2s ease-out;
 	background-color: #a1ce5b;
@@ -1217,7 +1216,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .python {
-	width:90%;
+	width:95%;
 	-moz-animation:python 2s ease-out;
 	-webkit-animation:python 2s ease-out;
 	background-color: #66b3cc;
@@ -1279,21 +1278,50 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
 	background-image: linear-gradient(top, #66b3cc, #5da3ba)
 }
+.React{
+  width:80%;
+  -moz-animation:React 2s ease-out;
+  -webkit-animation:React 2s ease-out;
+  background-color: #f674a4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+	background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+	background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+	background-image: -o-linear-gradient(top, #f674a4, #e06995);
+	background-image: linear-gradient(top, #f674a4, #e06995);
+}
+
+.Django{
+  width:50%;
+  -moz-animation:Django 2s ease-out;
+  -webkit-animation:Django 2s ease-out;
+  background-color: #f0bb4b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
 
 @-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:95%;}  }
-@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:80%;}  }
-@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:40%;}  }
-@-moz-keyframes python     { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:60%;}  }
+@-moz-keyframes python     { 0%  { width:0px;} 100%{ width:95%;}  }
 @-moz-keyframes product-Management   { 0%  { width:0px;} 100%{ width:70%;}  }
 @-moz-keyframes SQL   { 0%  { width:0px;} 100%{ width:87%;}  }
 @-moz-keyframes C  { 0%  { width:0px;} 100%{ width:70%;}  }
 @-moz-keyframes Java  { 0%  { width:0px;} 100%{ width:75%;}  }
+@-moz-keyframes React  { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes Django { 0%  { width:0px;} 100%{ width:80%;}  }
 
 @-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:95%;}  }
-@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:80%;}  }
-@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:40%;}  }
-@-webkit-keyframes python      { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:60%;}  }
+@-webkit-keyframes python      { 0%  { width:0px;} 100%{ width:95%;}  }
 @-webkit-keyframes product-Management   { 0%  { width:0px;} 100%{ width:70%;}  }
 @-webkit-keyframes SQL   { 0%  { width:0px;} 100%{ width:87%;}  }
 @-webkit-keyframes C  { 0%  { width:0px;} 100%{ width:70%;}  }
 @-webkit-keyframes Java   { 0%  { width:0px;} 100%{ width:75%;}  }
+@-webkit-keyframes React  { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes Django  { 0%  { width:0px;} 100%{ width:80%;}  }
