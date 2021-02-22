@@ -97,7 +97,6 @@ ol li {
 }
 
 .section-title-header p {
-    text: center;
     font-weight: 400;
     line-height: 26px;
     padding-bottom: 36px;
@@ -546,7 +545,6 @@ a.back-to-top:focus {
     border-bottom: 1px solid #f1f1f1;
     text-decoration: none;
     display: inline-block;
-    float: left;
     clear: both;
     position: relative;
     outline: 0;
@@ -1191,6 +1189,7 @@ a:not([href]):not([tabindex]):hover {
     width: 95%;
     -moz-animation: Java 2s ease-out;
     -webkit-animation: Java 2s ease-out;
+    animation: Java 2s ease-out;
     background-color: #66b3cc;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
     background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
@@ -1204,6 +1203,7 @@ a:not([href]):not([tabindex]):hover {
     width: 95%;
     -moz-animation: python 2s ease-out;
     -webkit-animation: python 2s ease-out;
+    animation: python 2s ease-out;
     background-color: #a1ce5b;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
     background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
@@ -1217,6 +1217,7 @@ a:not([href]):not([tabindex]):hover {
     width: 90%;
     -moz-animation: graphic-design 2s ease-out;
     -webkit-animation: graphic-design 2s ease-out;
+    animation: graphic-design 2s ease-out;
     background-color: #f674a4;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
     background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
@@ -1230,6 +1231,7 @@ a:not([href]):not([tabindex]):hover {
     width: 90%;
     -moz-animation: html-css 2s ease-out;
     -webkit-animation: html-css 2s ease-out;
+    animation: html-css 2s ease-out;
     background-color: #f0bb4b;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
     background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
@@ -1243,6 +1245,7 @@ a:not([href]):not([tabindex]):hover {
     width: 87%;
     -moz-animation: SQL 2s ease-out;
     -webkit-animation: SQL 2s ease-out;
+    animation: SQL 2s ease-out;
     background-color: #66b3cc;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
     background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
@@ -1256,6 +1259,7 @@ a:not([href]):not([tabindex]):hover {
     width: 80%;
     -moz-animation: C 2s ease-out;
     -webkit-animation: C 2s ease-out;
+    animation: C 2s ease-out;
     background-color: #a1ce5b;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
     background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
@@ -1269,6 +1273,7 @@ a:not([href]):not([tabindex]):hover {
     width: 70%;
     -moz-animation: React 2s ease-out;
     -webkit-animation: React 2s ease-out;
+    animation: React 2s ease-out;
     background-color: #f674a4;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
     background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
@@ -1282,6 +1287,7 @@ a:not([href]):not([tabindex]):hover {
     width: 70%;
     -moz-animation: jquery 2s ease-out;
     -webkit-animation: jquery 2s ease-out;
+    animation: jquery 2s ease-out;
     background-color: #f0bb4b;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
     background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
@@ -1295,6 +1301,7 @@ a:not([href]):not([tabindex]):hover {
     width: 60%;
     -moz-animation: project-Management 2s ease-out;
     -webkit-animation: project-Management 2s ease-out;
+    animation: project-Management 2s ease-out;
     background-color: #66b3cc;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
     background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
@@ -1308,6 +1315,7 @@ a:not([href]):not([tabindex]):hover {
     width: 50%;
     -moz-animation: Django 2s ease-out;
     -webkit-animation: Django 2s ease-out;
+    animation: Django 2s ease-out;
     background-color: #a1ce5b;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
     background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
@@ -1326,7 +1334,25 @@ a:not([href]):not([tabindex]):hover {
     }
 }
 
+@keyframes graphic-design {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
 @-moz-keyframes html-css {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes html-css {
     0% {
         width: 0px;
     }
@@ -1344,7 +1370,25 @@ a:not([href]):not([tabindex]):hover {
     }
 }
 
+@keyframes jquery {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
 @-moz-keyframes python {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes python {
     0% {
         width: 0px;
     }
@@ -1362,7 +1406,25 @@ a:not([href]):not([tabindex]):hover {
     }
 }
 
+@keyframes project-Management {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
 @-moz-keyframes SQL {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 87%;
+    }
+}
+
+@keyframes SQL {
     0% {
         width: 0px;
     }
@@ -1380,7 +1442,25 @@ a:not([href]):not([tabindex]):hover {
     }
 }
 
+@keyframes C {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
 @-moz-keyframes Java {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes Java {
     0% {
         width: 0px;
     }
@@ -1398,7 +1478,25 @@ a:not([href]):not([tabindex]):hover {
     }
 }
 
+@keyframes React {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
 @-moz-keyframes Django {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes Django {
     0% {
         width: 0px;
     }
